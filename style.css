@@ -211,3 +211,55 @@
 
 
 
+
+
+
+
+
+
+
+
+
+.liquidIcon {
+  animation: pulseIcon 2.2s ease-in-out infinite;
+}
+
+
+@keyframes pulseIcon {
+  0% {
+    transform: scale(0.99);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.99);
+    opacity: 0.8;
+  }
+}
+
+/* .liquidIcon{
+  animation: swingIcon ease-in-out 1s infinite alternate;
+}
+
+@keyframes swingIcon {
+  0% { transform: rotate(1deg); }
+  100% { transform: rotate(-1deg); }
+} */
+
+
+/* .test-box{
+  transition: 2s ease-in;
+}
+.test-icon{
+  transition: 2s ease-in;
+}
+.test-icon:hover + .test-box{
+  display: block !important;
+} */
+
+
+
+
